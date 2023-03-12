@@ -14,10 +14,7 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1000px;
-    height: 1000px;
-}
+
 
 #calc-body {
     aspect-ratio: 518/720;
@@ -25,4 +22,53 @@ body {
     background-color: var(--body-color);
     border-radius: 50px;
     margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9%;
+    row-gap: 2%;
+    justify-content: center;
+    align-items: center;
 }
+
+#calc-head {
+    width: 100%;
+    height: 19%;
+    background-color: var(--face-color); 
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.output {
+    color: var(--output-color);
+    font-size: 5rem;
+    margin-right: 5px;
+}
+
+.button {
+    width: 18%;
+    height: 15%;
+    background-color: var(--button-color1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary {
+    background-color: var(--button-color2);
+}
+
+.tertiary {
+    background-color: var(--button-color3);
+}
+
+.number {
+    color: var(--button-text-color);
+    font-size: 3rem;
+}
+
