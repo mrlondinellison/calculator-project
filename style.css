@@ -1,0 +1,28 @@
+:root {
+    --body-color: #171717;
+    --face-color: #96B69B;
+    --button-color1: #444343;
+    --button-color2: #418D97;
+    --button-color3: #BE3333;
+    --button-text-color: #E9E9E9;
+    --output-color: #303030;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    height: 1000px;
+}
+
+#calc-body {
+    aspect-ratio: 518/720;
+    width: 30%;
+    background-color: var(--body-color);
+    border-radius: 50px;
+    margin: 100px auto;
+}
